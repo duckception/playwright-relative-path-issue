@@ -1,0 +1,20 @@
+{
+  "name": "playwright-relative-path-issue",
+  "scripts": {
+    "compile": "tsx src/compile.ts",
+    "compile:fix": "tsx src/compileWithFix.ts",
+    "import:test": "tsx src/import-test.ts",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "glob": "^10.3.10",
+    "tsup": "^7.2.0",
+    "tsx": "^3.14.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
